@@ -1,5 +1,10 @@
 const CACHE_NAME = "game-cache-v1";
-const urlsToCache = ["/", "/index.html", "/styles.css", "/app.js"];
+const urlsToCache = [
+  "https://gamindo.github.io/offline-game-example/",
+  "https://gamindo.github.io/offline-game-example/index.html",
+  "https://gamindo.github.io/offline-game-example/styles.css",
+  "https://gamindo.github.io/offline-game-example/app.js",
+];
 
 self.addEventListener("install", function (event) {
   event.waitUntil(
